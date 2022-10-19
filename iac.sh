@@ -1,4 +1,23 @@
 #!/bin/bash
+#
+# iac.sh - Criação de  Sistema de Diretórios, Usuários, Grupos e Permissões no Linux
+#
+#
+# Autor: Rogério de José Paixão
+#
+# Contato: rogerio.j.paixao@gmail.com
+#
+# Link do Projeto: https://github.com/rjpaixao/projeto-iac-linux
+#
+#-------------------------------------------------------------------------------------
+#
+# Este programa cria automaticamente: diretórios, usuários, grupos
+# Insere os usuários em grupos especificos, concede permissão aos
+# grupos e define os acessos dos usuários.
+#
+# Cada usuário criado ja possui a sua pasta /home e a senha definida
+#
+#
 
 echo "Criando sistema de Diretórios..."
 
